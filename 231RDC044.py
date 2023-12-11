@@ -47,7 +47,7 @@ for i in range(0, len(codedName)):
            totalSalary=totalSalary+int(ws['B'+str(j)].value)
     name[i]=name[i]+" "+ str(totalSalary)
 
-input=input("input name and surname of worker to know the salary: ")    
+input=input("input name and surname of worker to know the salary: ")
 for i in range(0, len(name)):
     if input in name[i]:
         print(name[i])
